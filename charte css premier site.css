@@ -1,0 +1,83 @@
+.logo1{display:block;
+       max-width:70%;
+       height:auto;
+       margin-left: auto;
+       margin-right: auto;}
+
+.menuV{ width: 20%;
+     position: fixed;
+     float:left;
+     top:0%;
+     bottom:0%;
+     left:0%;
+     background-color: rgb(77, 64, 64);}
+   
+.logo2{display:block;
+    max-width:95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    background-color:rgb(77, 64, 64) ;
+}
+
+.boutonPath{display:block;
+          margin-top: 40%;
+          width:70%;
+          height:50px;
+          margin-left: 15%;
+          text-decoration:none;
+         background-color: brown;
+         border-radius: 0.8em;
+         text-align:center;
+         font-weight: bold;
+         }
+         .boutonPath:hover{background-color: darkturquoise;
+                          color: fuchsia;
+                          transition: 1s;
+                           }
+
+.boutonGiby{display:block;
+               margin-top: 10%;
+               width:70%;
+               height:50px;
+               margin-left: 15%;
+               text-decoration:none;
+              background-color: brown;
+              border-radius: 0.8em;
+              text-align:center;
+              font-weight: bold;}
+              .boutonGiby:hover{background-color: fuchsia;
+                                 color: green;}
+
+
+.boutonMirage{display:block;
+           margin-top: 10%;
+           width:70%;
+         height:50px;
+         margin-left: 15%;
+          text-decoration:none;
+         background-color: brown;
+         border-radius: 0.8em;
+         text-align:center;
+          font-weight: bold;}
+          .boutonMirage:hover{background-color: indigo;
+                              color: khaki;}
+
+
+.logo{display:block;
+   width: 400px;
+   height: 100px;
+   margin-left: auto;
+   margin-right: auto;
+    background-color: rgb(82, 0, 0);
+    border-radius: 0.8em;
+   }
+
+*{background-color: darkred;}
+
+
+.main { display:block;
+     float:right;
+     max-width:78%; }
+
