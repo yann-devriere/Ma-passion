@@ -7,7 +7,9 @@
        max-width:70%;
        height:auto;
        margin-left: auto;
-       margin-right: auto;}
+       margin-right: auto;
+       margin-top:-21px;
+       }
        
 
 .menuV{ width: 20%;
@@ -38,10 +40,11 @@
          border-radius: 0.8em;
          text-align:center;
          font-weight: bold;
-         padding-top:9%;         }
+         padding-top:9%;
+         transition: 1s;       }
          .boutonPath:hover{background-color: rgb(233, 10, 10);
                           color: rgb(2, 2, 2);
-                          transition: 1s;
+                          width:75%;
                            }
 
 .boutonGiby{display:block;
@@ -55,10 +58,11 @@
               border-radius: 0.8em;
               text-align:center;
               font-weight: bold;
-              padding-top:9%;    }
+              padding-top:9%; 
+              transition: 1s;   }
               .boutonGiby:hover{background-color: rgb(233, 10, 10);
                                  color:rgb(2, 2, 2);
-                               transition: 1s;}
+                               width:75%;}
 
 
 .boutonMirage{display:block;
@@ -72,10 +76,11 @@
          border-radius: 0.8em;
          text-align:center;
           font-weight: bold;
-          padding-top:9%;    }
+          padding-top:9%; 
+          transition:1s;   }
           .boutonMirage:hover{background-color: rgb(233, 10, 10);
                               color: rgb(2, 2, 2);
-                              transition: 1s;}
+                              width:75%}
 
 
 .logo{display:block;
@@ -95,7 +100,7 @@
 .sommaire{list-style-type: none;}
 .sommaire a{display: block;
            background-color:rgb(175, 194, 3) ;
-           color: honeydew;
+           color: rgb(18, 19, 18);
            text-decoration: none;  
            max-width: 150px;
            margin-top:2%;
@@ -119,8 +124,10 @@
                text-align: center;
                border-radius: 0.8em;
                border:1px;
-               margin: 10px;}
-               .menuFooter a:hover{transition: 1s;
+               margin: 10px;
+               transition:1s;
+            }
+               .menuFooter a:hover{
                                  background-color: rgb(36, 33, 33);
                               color: rgb(214, 214, 214);}
           
@@ -135,16 +142,19 @@
                   border-radius: 0.8em;
                   border:1px;
                   margin-right:auto;
-                  margin-left: auto;}
+                  margin-left: auto;
+                  transition:1s;
+               }
                   .boutonPaccueil:hover{background-color: rgb(36,33,33);
                                         color: rgb(214, 214, 214);
-                                        transition:1s;}
+                                        }
 
 .imageAccueil{border-radius: 0.5em;
                filter:brightness(0.9);
-               max-width: 500px;}
+               max-width: 500px;
+            transition:1s;
+         }
               .imageAccueil:hover{filter:brightness(1.2);
-                                   transition: 1s;
                                    }
                               
 .reps {border-radius: 0.8em;
@@ -155,3 +165,7 @@
 
 .sooxfar {border-radius: 0.8em;
         float:right;}
+
+.vidéos {display:block;
+         margin-left:auto;
+         margin-right:auto;}
